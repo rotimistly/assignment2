@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALTSCHOOL SECOND ASSIGNMENT</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://altschool-second-assignment.vercel.app/assets/images/Logo.png" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <img class="small-screen-img" src="https://altschool-second-assignment.vercel.app/assets/images/Logo.png" alt="status bar">
+      <div class="left-container">
+        <img class="logo" src="https://altschool-second-assignment.vercel.app/assets/images/Logo.png" alt="logo" />
+        <h1>
+          For Individuals
+        </h1>
+        <p class="small-screen-p">
+          Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.
+        </p>
+        <p class="big-screen-p">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+      <div class="right-container">
+        <form action="">
+          <div class="big-screen-flex">
+            <div class="inputs">
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+            <div class="inputs">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="first-name" required />
+            </div>
+          </div>
+          <div class="big-screen-flex">
+            <div class="inputs">
+              <label for="first-name">Gender</label>
+              <select name="gender" id="gender-select" required>
+                <option value="">Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="not">Rather not say</option>
+              </select>
+            </div>
+            <div class="inputs">
+              <label for="dob">Date of Birth</label>
+              <div class="date">
+                <input type="date" name="dob" id="dob" required />
+                <!-- <img src="/assets/images/Filled/Vector.png" alt=""> -->
+              </div>
+            </div>
+          </div>
+          <div class="big-screen-flex">
+            <div class="inputs">
+              <label for="weight">Weight (KG)</label>
+              <input
+                type="text"
+                name="weight"
+                id="weight"
+                placeholder="Enter Weight"
+                required
+              />
+            </div>
+            <div class="inputs">
+              <label for="height">Height (CM)</label>
+              <input
+                type="text"
+                name="height"
+                id="height"
+                placeholder="Enter Height"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="activity-level" class="inputs">
+            <label for="activity-level">Activity Level</label>
+            <label class="activity-l" for="activity-level">Activity Level</label>
+            <select
+              class="activity"
+              name="activity-level"
+              id="activity-level"
+              required
+            >
+              <option value="">Select here</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <div class="password-l" class="inputs">
+            <label for="password">Password</label>
+            <input
+              class="password"
+              type="password"
+              name="password"
+              id="password"
+              required
+            />
+          </div>
+          <button class="register-btn" type="submit">Register</button>
+        </form>
+
+        <p class="terms big-screen-terms">
+          By clicking Register, you agree to our
+          <a href="#"><span class="green-link">Terms of Use</span></a> and our
+          <a href="#"><span class="green-link">Privacy Policy</span></a>
+        </p>
+      </div>
+
+      <p class="terms small-screen-terms">
+        By clicking Register, you agree to our
+        <a href="#"><span class="green-link">Terms of Use</span></a> and our
+        <a href="#"><span class="green-link">Privacy Policy</span></a>
+      </p>
+    </div>
+  </body>
+</html>
